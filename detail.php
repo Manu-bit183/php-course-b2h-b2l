@@ -40,6 +40,7 @@ if ($id !== null && $id !== false) {
         <?=$bike['type']?>
     </td>
     <td><a href="update.php?id=<?= $bike['id'] ?>"> update</a></td>
+    <td><a href="delete.php?id=<?= $bike['id'] ?>"> delete</a></td>
 </tr>
 <?php endforeach;?>
 </table>
